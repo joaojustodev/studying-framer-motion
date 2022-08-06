@@ -1,6 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
+  :root {
+    --header-height: 56px;
+  }
+
   *,*::before,*::after {
     margin:0;
     padding:0;

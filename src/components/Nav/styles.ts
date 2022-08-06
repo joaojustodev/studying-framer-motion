@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
 export const NavBlock = styled.nav`
-  height: 56px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 200;
+
+  width: 100%;
+  height: var(--header-height);
   background: #fff;
 
   > div:first-child {

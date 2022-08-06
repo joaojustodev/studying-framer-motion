@@ -20,7 +20,7 @@ export const BoxWrapper = styled(motion.div)`
 
 export const Box = styled(motion.div)`
   position: sticky;
-  top: 2.5rem;
+  top: calc(2.5rem + var(--header-height));
 
   width: 420px;
   height: 420px;
