@@ -1,10 +1,9 @@
-import { ForwardedRef, forwardRef, RefObject, useRef } from "react";
+import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { BoxWrapper, Box } from "./styles";
 import useMediaQuery from "../../../../hooks/useMediaQuery";
 
-/* eslint-disable-next-line react/display-name */
 const BoxApresentation = () => {
   const boxWrapperRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
