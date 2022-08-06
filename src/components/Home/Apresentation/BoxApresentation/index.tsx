@@ -43,7 +43,7 @@ const BoxApresentation = () => {
     <BoxWrapper
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-300px" }}
+      viewport={{ once: true, margin: "-200px" }}
       ref={boxWrapperRef}
     >
       <Box style={{ x, skew, scale }}>

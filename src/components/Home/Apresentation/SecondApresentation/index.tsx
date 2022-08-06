@@ -35,7 +35,7 @@ const ApresentationTwo = () => {
         variants={apresentationTwoVariant}
         whileInView="visible"
         initial="hidden"
-        viewport={{ once: true, margin: "-300px" }}
+        viewport={{ once: true, margin: "-200px" }}
       >
         <motion.h2 variants={apresentationTwoItemVariant}>
           Apresentation 2
