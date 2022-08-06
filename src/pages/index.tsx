@@ -1,10 +1,9 @@
-import Head from "next/head";
-import type { NextPage } from "next";
 import Header from "../components/Home/Header";
 import Apresentation from "../components/Home/Apresentation";
 import Nav from "../components/Nav";
+import CookiesConsent from "../components/CookiesConsent";
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div>
       <Nav />
@@ -13,6 +12,7 @@ const Home: NextPage = () => {
         <Apresentation />
         <div style={{ width: "100%", height: "150vh" }}></div>
       </main>
+      <CookiesConsent />
     </div>
   );
 };
