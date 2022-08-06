@@ -79,6 +79,8 @@ const CookiesConsent = () => {
       </ConsentBlock>
     );
   }
+
+  return <></>;
 };
 
 export default CookiesConsent;
